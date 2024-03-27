@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 250px;
+    background: url(https://cdn.xabardor.uz/media/photo/2023/01/07/news_photo-20230125-154331.webp) no-repeat center center/cover;
+}
+
+.bir {
+    position: relative;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: bir;
+
+
+    img {
+        width: 350px;
+        height: 350px;
+
+    }
+}
+
+@keyframes bir {
+    0% {
+        transform: rotate(300deg);
+    }
+
+    50% {
+        transform: rotate(600deg);
+    }
+
+    100% {
+        transform: rotate(800deg);
+    }
+}
+
+.ikki img {
+    position: relative;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: ikki;
+    border-radius: 50%;
+    width: 390px;
+    height: 300px;
+    margin-left: 60px;
+}
+
+@keyframes ikki {
+    0% {
+        transform: rotate(300deg);
+    }
+
+    50% {
+        transform: rotate(600deg);
+    }
+
+    100% {
+        transform: rotate(800deg);
+    }
+}
+
+.uch {
+
+    position: relative;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: uch;
+}
+
+@keyframes uch {
+    0% {
+        transform: rotate(300deg);
+    }
+
+    50% {
+        transform: rotate(400deg);
+    }
+
+    100% {
+        transform: rotate(500deg);
+    }
+}
